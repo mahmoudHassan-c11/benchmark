@@ -1,0 +1,255 @@
+{
+  "mainPage": {
+    "title": "Building Trust to Achieve Sustainable Value",
+    "description": "Professional accounting and consulting solutions, supported by expertise and trust to empower business owners and enhance their financial journey today and tomorrow."
+  },
+
+  "buttons": {
+    "services": "Our Services",
+    "book": "Book a Consultation"
+  },
+
+  "links": {
+    "about": "About Us",
+    "services": "Our Services",
+    "contact": "Contact Us",
+    "home": "Home",
+    "materials": "Resources",
+    "knowledge": "Knowledge"
+  },
+
+  "our-services": {
+    "title": "Our Services",
+    "branchTitle": "Integrated solutions to empower your business success",
+    "description": "We provide a comprehensive range of specialized tax, accounting, financial, and advisory services, designed to support businesses and enable them to achieve sustainable growth and seize more opportunities.",
+    "1": "Financial Audit Services",
+    "2": "Transaction Financing",
+    "3": "Management Consulting",
+    "4": "Financial Consulting",
+    "5": "Accounting",
+    "6": "Tax Services"
+  },
+
+
+  "servicesPage": {
+    "hero": {
+      "titleWhite": "Our",
+      "titleGold": "Services",
+      "subtitle": "We provide integrated solutions to help you achieve growth, improve efficiency, and ensure compliance with confidence.",
+      "imagePlaceholder": "Office / Hero Image"
+    },
+    "services": {
+      "bookkeeping": {
+        "number": "01",
+        "title": "Bookkeeping",
+        "desc": "We record and organize your financial transactions accurately, giving you clear insights to make better decisions."
+      },
+      "taxConsulting": {
+        "number": "02",
+        "title": "TAX Consulting",
+        "desc": "We provide smart tax strategies and practical advice to optimize your tax position and reduce risks."
+      },
+      "internalAudit": {
+        "number": "03",
+        "title": "Internal Audit",
+        "desc": "We evaluate and improve your internal processes to ensure efficiency, compliance, and operational integrity."
+      },
+      "forensic": {
+        "number": "04",
+        "title": "Forensic",
+        "desc": "We investigate financial irregularities and provide evidence-based insights to support decisions and protection."
+      },
+      "riskManagement": {
+        "number": "05",
+        "title": "Risk Management",
+        "desc": "We help you identify, assess, and mitigate potential risks and develop effective strategies to minimize their impact."
+      },
+      "governance": {
+        "number": "06",
+        "title": "Governance",
+        "desc": "We strengthen your governance framework to promote transparency, accountability, and long-term sustainability."
+      },
+      "transferPricing": {
+        "number": "07",
+        "title": "Transfer Pricing",
+        "desc": "We provide compliant transfer pricing solutions and documentation to help you manage risks and meet regulations."
+      }
+    },
+    "learnMore": "Learn More",
+    "cta": {
+      "title": "Need a Specialized Consultation?",
+      "desc": "Our team is ready to support you with the right solution for your business needs.",
+      "button": "Book a Consultation"
+    }
+  },
+
+
+  "featuresOne": {
+    "title": "New Standard 18",
+    "description1": "Standards for using reports we'll reveal about the application.",
+    "description2": "We help you understand the requirements of the new Standard 18 and its proper implementation in your business."
+  },
+  "featuresTwo": {
+    "title": "Financial Flexibility",
+    "description1": "The foundation for sustainable growth",
+    "description2": "The foundation on which business sustainability grows. We help you build flexible financial management that keeps pace with changes and ensures continuity."
+  },
+
+  "span": {
+    "text": "We are committed to the highest international standards"
+  },
+
+  "staticis": {
+    "Exp": "15+ Years of Experience",
+    "Q": "100% Commitment to Quality",
+    "Ser": "7 Integrated Services",
+    "Clients": "Our client base is growing steadily"
+  },
+
+  "contactPage": {
+    "hero": {
+      "label": "Contact Us",
+      "title": "We are here<br/>to serve you",
+      "description": "At Benchmark, we believe effective communication is the first step to building a successful partnership. Our team is ready to answer your inquiries and provide the support you need.",
+      "rating": {
+        "label": "Our client rating",
+        "value": "4.9/5",
+        "count": "+500 reviews"
+      },
+      "quickContact": {
+        "title": "Quick contact",
+        "sub": "Choose the easiest way to reach our team",
+        "methods": {
+          "chat": "Live chat",
+          "schedule": "Schedule a consultation",
+          "email": "Email",
+          "call": "Direct call",
+          "whatsapp": "WhatsApp"
+        }
+      }
+    },
+    "contactSection": {
+      "info": {
+        "title": "We are at your service",
+        "sub": "Choose the channel that suits you, our team is available around the clock<br/>to ensure a fast and effective communication experience",
+        "email": { "label": "Email", "value": "info@benchmark.com" },
+        "phone": { "label": "Phone number", "value": "+962 6 123 4567" },
+        "whatsapp": {
+          "label": "Business WhatsApp",
+          "value": "+962 79 123 4567"
+        },
+        "address": {
+          "label": "Address",
+          "value": "Amman, Jordan - King Abdullah II Street<br/>Benchmark Tower, 10th Floor"
+        },
+        "map": {
+          "pin": "Benchmark Office",
+          "directions": "Get directions"
+        }
+      },
+      "form": {
+        "title": "Message us",
+        "sub": "Fill out the form and we'll get back to you soon",
+        "fields": {
+          "name": "Full name",
+          "email": "Email address",
+          "phone": "Mobile number",
+          "subject": "Subject",
+          "message": "Your message"
+        },
+        "subjectOptions": {
+          "consultation": "Consultation",
+          "support": "Technical support",
+          "partnership": "Partnership",
+          "other": "Other"
+        },
+        "submit": "Send message"
+      }
+    },
+    "why": {
+      "title": "Why contact us?",
+      "sub": "We offer a professional communication experience built on speed, quality, and care",
+      "features": {
+        "instant": {
+          "title": "Instant response",
+          "desc": "We respond to your inquiries<br/>as quickly as possible"
+        },
+        "support": {
+          "title": "Dedicated support",
+          "desc": "A team of experts ready to help you<br/>at every step"
+        },
+        "consultation": {
+          "title": "Free consultations",
+          "desc": "An initial consultation session<br/>to help you decide"
+        },
+        "confidential": {
+          "title": "Full confidentiality",
+          "desc": "We guarantee your data privacy<br/>and the confidentiality of all conversations"
+        },
+        "custom": {
+          "title": "Custom solutions",
+          "desc": "We provide solutions tailored to your needs<br/>and goals"
+        }
+      },
+      "partnersLabel": "We adhere to the highest international standards"
+    }
+  },
+
+  "errors": {
+    "name": "Name is required",
+    "email": "Invalid email address",
+    "phone": "Phone number is required",
+    "subject": "Please select a subject",
+    "message": "Message must be at least 10 characters"
+  },
+  "sending": "Sending...",
+  "successMessage": "Your message has been sent successfully, we'll get back to you soon",
+  "errorMessage": "An error occurred while sending, please try again",
+
+  
+  "aboutPage": {
+    "hero": {
+      "titleLine1": "We Build Trust",
+      "titleLine2": "To Deliver Real Value",
+      "description": "At Benchmark, trust is not just a slogan — it is the foundation of everything we offer. Through full transparency and unwavering commitment to the highest standards of quality and governance, we work with our clients to achieve results that match their ambitions and support steady, sustainable business growth.",
+      "imagePlaceholder": "Office / hero image placeholder"
+    },
+    "features": {
+      "confidential": { "title": "Complete Confidentiality", "desc": "We guarantee the protection and confidentiality of our clients' data at all times." },
+      "excellence": { "title": "Commitment to Excellence", "desc": "We strive for continuous improvement and the highest quality in everything we deliver." },
+      "clientFirst": { "title": "Clients First", "desc": "We place our clients' goals at the heart of every decision and strategy." },
+      "transparency": { "title": "Transparency & Governance", "desc": "We adhere to the highest standards of transparency and governance in all our dealings." }
+    },
+    "about": {
+      "label": "About Us",
+      "title": "Deep Expertise, Real Impact",
+      "text": "Benchmark grows through specialized talent and expertise that combines deep knowledge with a practical understanding of market needs, working with full professionalism and transparency to deliver smart solutions that keep pace with challenges and achieve tangible, sustainable results.",
+      "imagePlaceholder": "Pen / vision image placeholder",
+      "quote": "Your trusted partner on the journey of growth and success.",
+      "highlights": {
+        "quality": { "title": "Certified Quality", "desc": "We adhere to the best local and international standards." },
+        "team": { "title": "Specialized Team", "desc": "A diverse, comprehensive mix of young talent and seasoned experts." },
+        "global": { "title": "Global Reach", "desc": "International coverage spanning the region and beyond." },
+        "solutions": { "title": "Effective Solutions", "desc": "We deliver practical solutions that meet your needs." }
+      }
+    },
+    "global": {
+      "label": "Global Team, Local Vision",
+      "title": "Talent from Jordan and Around the World",
+      "text": "Benchmark is proud to bring together top-tier talent from Jordan and across the globe. Our team combines deep local expertise with a global perspective, working hand in hand with clients to deliver innovative solutions that drive the best results in every field.",
+      "imagePlaceholder": "World map image placeholder",
+      "cards": {
+        "methodology": { "title": "Integrated Work Methodology", "desc": "Covering best practices in accounting, auditing, and advisory." },
+        "technology": { "title": "Advanced Tools & Technology", "desc": "We use the latest tools and technologies to improve performance and results." },
+        "market": { "title": "Deep Market Understanding", "desc": "We map out your world precisely to support the best decisions." },
+        "responsive": { "title": "Fast & Flexible Response", "desc": "We adapt quickly and flexibly to meet your requirements." },
+        "partnership": { "title": "Long-Term Partnerships", "desc": "We build sustainable relationships grounded in trust, understanding, and success." }
+      }
+    },
+    "accreditations": {
+      "title": "Reports to the Highest Global Standards",
+      "logos": ["IFRS", "IAASB", "OECD", "ISO"]
+    }
+  }
+
+}
