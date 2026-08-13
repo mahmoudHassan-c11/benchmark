@@ -30,7 +30,6 @@
     "6": "Tax Services"
   },
 
-
   "servicesPage": {
     "hero": {
       "titleWhite": "Our",
@@ -59,7 +58,7 @@
         "title": "Forensic",
         "desc": "We investigate financial irregularities and provide evidence-based insights to support decisions and protection."
       },
-      "riskManagement": {
+      "risk-management": {
         "number": "05",
         "title": "Risk Management",
         "desc": "We help you identify, assess, and mitigate potential risks and develop effective strategies to minimize their impact."
@@ -83,6 +82,760 @@
     }
   },
 
+
+  
+  "governancePage": {
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Our Services",
+      "current": "Governance"
+    },
+    "hero": {
+      "title": "Governance",
+      "subtitle": "Strong Governance.<br/>Sustainable Future.",
+      "description": "Effective governance creates clarity, drives accountability, and builds trust — empowering your organization to grow with confidence.",
+      "cta": "Book a Consultation",
+      "absencePanel": {
+        "title": "In the Absence of Governance",
+        "items": {
+          "direction": { "title": "Unclear Direction", "desc": "No alignment leads to confusion." },
+          "accountability": { "title": "No Accountability", "desc": "Gaps in ownership lead to mistakes." },
+          "risk": { "title": "Unmanaged Risks", "desc": "Small issues become major crises." },
+          "trust": { "title": "Loss of Trust", "desc": "Lack of transparency damages reputation." }
+        }
+      },
+      "features": {
+        "direction": { "title": "Clear Direction", "desc": "Align strategy with strong oversight." },
+        "accountability": { "title": "Accountability", "desc": "Define roles, enforce responsibility." },
+        "riskControl": { "title": "Risk Control", "desc": "Anticipate, manage, and reduce risks." },
+        "trust": { "title": "Trust & Transparency", "desc": "Build confidence with stakeholders." }
+      }
+    },
+    "framework": {
+      "title": "Our Governance Framework",
+      "center": {
+        "title": "Strong<br/>Governance",
+        "subtitle": "Built on Principles.<br/>Focused on Value."
+      },
+      "steps": {
+        "assess": { "title": "Assess", "desc": "We evaluate your current governance structure and identify gaps." },
+        "design": { "title": "Design", "desc": "We create a tailored governance framework aligned with your strategy and goals." },
+        "implement": { "title": "Implement", "desc": "We put the right policies, controls, and processes into action." },
+        "monitor": { "title": "Monitor & Improve", "desc": "We continuously monitor performance and enhance governance effectiveness." }
+      }
+    },
+    "impact": {
+      "title": "The Impact of Strong Governance",
+      "cards": {
+        "decisions": { "title": "Better Decisions", "desc": "Reliable data and clear oversight lead to confident, informed decisions." },
+        "excellence": { "title": "Operational Excellence", "desc": "Efficient processes, clear roles, and effective performance." },
+        "resilience": { "title": "Risk Resilience", "desc": "Proactive risk management protects value and ensures business continuity." },
+        "stakeholderTrust": { "title": "Stronger Stakeholder Trust", "desc": "Transparency and accountability build lasting trust with stakeholders." },
+        "growth": { "title": "Sustainable Growth", "desc": "A strong governance foundation supports innovation and long-term success." }
+      }
+    },
+    "banner": {
+      "titleLine1": "Good Governance Today.",
+      "titleLine2": "Stronger Tomorrow.",
+      "description": "Let Benchmark help you build a governance structure that drives value, manages risk, and secures your future.",
+      "cta": "Book a Consultation",
+      "points": {
+        "perspective": { "title": "Independent Perspective", "desc": "Unbiased insights for better governance." },
+        "tailored": { "title": "Tailored Solutions", "desc": "Governance frameworks designed for your business." },
+        "impact": { "title": "Lasting Impact", "desc": "Creating sustainable value through strong governance." }
+      }
+    }
+  },
+
+
+  
+  "forensicPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Our Services",
+      "current": "Forensic Advisory"
+    },
+    "hero": {
+      "titleLine1": "TRUTH.",
+      "titleLine2": "EVIDENCE.",
+      "titleLine3": "RESOLUTION.",
+      "subtitle": "For clarity. For justice. For your protection.",
+      "description": "In a world of increasing risk and complexity, we uncover what matters most. Our forensic experts deliver facts, uncover the truth, and help you take decisive action.",
+      "features": {
+        "uncover": "Uncover the Truth",
+        "investigate": "Investigate with Precision",
+        "protect": "Protect Your Interests",
+        "support": "Support Legal Outcomes"
+      },
+      "quote": {
+        "line1": "We don't just find the facts.",
+        "line2": "We uncover what others overlook."
+      }
+    },
+    "why": {
+      "title": "Why Forensic Matters",
+      "description": "Fraud, misconduct, and financial crime can cause lasting damage. Our forensic services help you:",
+      "cards": {
+        "detect": { "title": "Detect Fraud & Misconduct", "desc": "Identify hidden risks and irregularities." },
+        "minimize": { "title": "Minimize Financial Losses", "desc": "Quantify impact and recover value." },
+        "strengthen": { "title": "Strengthen Legal Position", "desc": "Deliver clear, reliable evidence." },
+        "restore": { "title": "Restore Trust & Integrity", "desc": "Rebuild confidence with transparency." }
+      }
+    },
+    "capabilities": {
+      "title": "Our Investigation Capabilities",
+      "items": {
+        "fraud": { "title": "Fraud Investigation", "desc": "Uncover fraud, corruption, and asset misappropriation with deep analysis and proven methods." },
+        "financialCrime": { "title": "Financial Crime & Compliance", "desc": "Investigate money laundering, bribery, and sanctions violations with regulatory expertise." },
+        "dispute": { "title": "Dispute Support & Litigation", "desc": "Provide expert reports, testimony support, and evidence for legal proceedings." },
+        "dataAnalytics": { "title": "Data Analytics & Forensic Technology", "desc": "Leverage advanced tools and analytics to trace, analyze, and uncover critical insights." },
+        "internal": { "title": "Internal Investigations", "desc": "Conduct independent, objective investigations with sensitivity and professionalism." }
+      }
+    },
+    "global": {
+      "title": "Global Expertise. Local Insight.",
+      "description": "Our forensic professionals bring deep industry knowledge and cross-border experience to deliver credible results in complex cases.",
+      "stats": {
+        "countries": { "value": "40+", "label": "Countries Served" },
+        "industries": { "value": "20+", "label": "Industries Supported" },
+        "investigations": { "value": "100+", "label": "Complex Investigations" }
+      },
+      "industries": {
+        "financial": "Financial Services",
+        "government": "Government & Public Sector",
+        "energy": "Energy & Utilities",
+        "healthcare": "Healthcare & Pharmaceuticals",
+        "technology": "Technology & Telecom",
+        "manufacturing": "Manufacturing & Retail"
+      }
+    },
+    "confidential": {
+      "titleLine1": "Confidentiality.",
+      "titleLine2": "Integrity. Professionalism.",
+      "description": "We handle every engagement with the utmost discretion, independence, and ethics. Your trust is our responsibility.",
+      "items": {
+        "absolute": { "title": "Absolute Confidentiality", "desc": "Your information is always protected." },
+        "independent": { "title": "Independent & Objective", "desc": "We deliver unbiased findings you can rely on." },
+        "ethical": { "title": "Ethical & Professional", "desc": "We adhere to the highest global standards." }
+      }
+    },
+    "cta": {
+      "titleLine1": "Turn Uncertainty",
+      "titleLine2": "Into Clarity.",
+      "description": "When the stakes are high, you need answers you can trust.",
+      "button": "Book a Consultation",
+      "words": ["Experienced.", "Precise.", "Trusted.", "Focused on Results."]
+    }
+  },
+
+
+  "bookkeepingPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Our Services",
+      "current": "Bookkeeping"
+    },
+    "hero": {
+      "title": "Bookkeeping",
+      "subtitle": "Accurate Records. Clear Insights. Stronger Decisions.",
+      "description": "At Benchmark, we provide reliable and efficient bookkeeping services that keep your financial records organized, up-to-date, and ready to support your growth.",
+      "imageAlt": "Bookkeeping Dashboard on Laptop",
+      "highlights": {
+        "accurate": {
+          "title": "Accurate & Organized",
+          "desc": "We record every transaction with precision and maintain clean, organized books."
+        },
+        "timely": {
+          "title": "Timely & Reliable",
+          "desc": "We keep your records up to date, so you always have a clear picture of your finances."
+        },
+        "compliant": {
+          "title": "Compliant & Secure",
+          "desc": "We follow best practices and maintain confidentiality at every step."
+        }
+      }
+    },
+    "stats": {
+      "accurate": {
+        "title": "100% Accurate Records",
+        "desc": "Every entry is reviewed for accuracy and completeness."
+      },
+      "onTime": {
+        "title": "On-Time Every Time",
+        "desc": "We deliver your reports when you need them."
+      },
+      "secure": {
+        "title": "Secure & Confidential",
+        "desc": "Your data is protected with industry-leading security."
+      },
+      "support": {
+        "title": "Support You Can Count On",
+        "desc": "Our team is always here to help you grow."
+      }
+    },
+    "erp": {
+      "title": "ERP & Software Solutions That Power Accuracy",
+      "description1": "We leverage leading ERP systems and cloud-based software to streamline your bookkeeping processes, improve accuracy, and provide real-time visibility into your financials.",
+      "description2": "We work with a wide range of platforms, including:",
+      "platforms": [
+        "SAP S/4HANA",
+        "Oracle NetSuite",
+        "Microsoft Dynamics 365",
+        "Odoo",
+        "QuickBooks Online",
+        "Xero",
+        "Zoho Books",
+        "TallyPrime"
+      ],
+      "features": {
+        "integrated": { "title": "Integrated Systems Smarter Business" },
+        "automated": {
+          "title": "Automated Workflows",
+          "desc": "Reduce manual work and minimize errors."
+        },
+        "realtime": {
+          "title": "Real-Time Reporting",
+          "desc": "Get instant insights into your financial performance."
+        },
+        "seamless": {
+          "title": "Seamless Integration",
+          "desc": "Connect with banks, CRM, payroll, and other business tools."
+        },
+        "scalable": {
+          "title": "Scalable Solutions",
+          "desc": "Systems that grow with your business needs."
+        },
+        "collaboration": {
+          "title": "Better Collaboration",
+          "desc": "Work seamlessly with your team and advisors."
+        },
+        "security": {
+          "title": "Data Security",
+          "desc": "Enterprise-grade security to keep your data safe."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Bookkeeping Process",
+      "steps": {
+        "collect": {
+          "number": "01",
+          "title": "Collect",
+          "desc": "We gather your financial documents and data."
+        },
+        "record": {
+          "number": "02",
+          "title": "Record",
+          "desc": "We record transactions accurately in your books."
+        },
+        "reconcile": {
+          "number": "03",
+          "title": "Reconcile",
+          "desc": "We reconcile accounts and ensure everything balances."
+        },
+        "report": {
+          "number": "04",
+          "title": "Report",
+          "desc": "We provide clear, insightful financial reports."
+        },
+        "advise": {
+          "number": "05",
+          "title": "Advise",
+          "desc": "We help you understand your numbers and make better decisions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Focus on Growing Your Business, We'll Handle the Numbers.",
+      "description": "Reliable bookkeeping is the foundation of smart decisions. Let Benchmark keep your finances in perfect order.",
+      "button": "Book a Consultation",
+      "badges": [
+        "Accurate & Reliable",
+        "Secure & Confidential",
+        "Timely & Efficient",
+        "Expert Support"
+      ]
+    }
+  },
+
+  "internalAuditPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Our Services",
+      "current": "Internal Audit"
+    },
+    "hero": {
+      "label": "Our Services",
+      "title": "Internal Audit",
+      "subtitle": "Strengthening Control. Enhancing Performance.",
+      "description": "We help organizations evaluate and improve the effectiveness of their risk management, internal controls, and governance processes—driving transparency, efficiency, and sustainable growth.",
+      "imageAlt": "Internal Audit Office",
+      "highlights": {
+        "independent": {
+          "title": "Independent & Objective",
+          "desc": "Unbiased assurance to strengthen your business."
+        },
+        "riskBased": {
+          "title": "Risk-Based Approach",
+          "desc": "Focus on what matters most to your objectives."
+        },
+        "insights": {
+          "title": "Actionable Insights",
+          "desc": "Clear recommendations that create real impact."
+        },
+        "improvement": {
+          "title": "Continuous Improvement",
+          "desc": "We help you evolve and stay ahead."
+        }
+      }
+    },
+    "whatIs": {
+      "title": "What is Internal Audit?",
+      "description": "Internal audit is an independent, systematic, and risk-based assurance and advisory activity designed to add value and improve an organization's operations. It helps management and the board achieve their objectives by bringing a disciplined approach to evaluate and enhance the effectiveness of governance, risk management, and internal control processes."
+    },
+    "addValue": {
+      "title": "How We Add Value",
+      "items": {
+        "evaluate": {
+          "title": "Evaluate",
+          "desc": "We assess the adequacy and effectiveness of controls and processes."
+        },
+        "identify": {
+          "title": "Identify",
+          "desc": "We identify risks, weaknesses, and areas of improvement."
+        },
+        "recommend": {
+          "title": "Recommend",
+          "desc": "We provide practical recommendations tailored to your needs."
+        },
+        "enhance": {
+          "title": "Enhance",
+          "desc": "We help strengthen performance and achieve your goals."
+        }
+      }
+    },
+    "services": {
+      "title": "Our Internal Audit Services",
+      "items": {
+        "operational": {
+          "title": "Operational Audit",
+          "desc": "Improve efficiency and effectiveness of operations."
+        },
+        "financial": {
+          "title": "Financial Audit",
+          "desc": "Ensure accuracy and reliability of financial reporting."
+        },
+        "compliance": {
+          "title": "Compliance Audit",
+          "desc": "Assess adherence to laws, regulations, and policies."
+        },
+        "it": {
+          "title": "IT & System Audit",
+          "desc": "Evaluate IT controls and protect your digital assets."
+        },
+        "fraud": {
+          "title": "Fraud Risk Assessment",
+          "desc": "Identify fraud risks and strengthen detection."
+        },
+        "process": {
+          "title": "Process Review & Advisory",
+          "desc": "Streamline processes and drive better performance."
+        }
+      }
+    },
+    "methodology": {
+      "title": "Our Internal Audit Methodology",
+      "steps": {
+        "plan": {
+          "number": "01",
+          "title": "Plan",
+          "desc": "We understand your business, objectives, and risks."
+        },
+        "assess": {
+          "number": "02",
+          "title": "Assess",
+          "desc": "Evaluate processes, controls, and risk exposures."
+        },
+        "test": {
+          "number": "03",
+          "title": "Test",
+          "desc": "Perform detailed testing and gather evidence."
+        },
+        "analyze": {
+          "number": "04",
+          "title": "Analyze",
+          "desc": "Analyze results and identify gaps and root causes."
+        },
+        "report": {
+          "number": "05",
+          "title": "Report",
+          "desc": "Deliver clear, concise findings and recommendations."
+        },
+        "followUp": {
+          "number": "06",
+          "title": "Follow Up",
+          "desc": "Support implementation and monitor improvements."
+        }
+      }
+    },
+    "keyAreas": {
+      "title": "Key Areas We Help You Strengthen",
+      "items": [
+        "Corporate Governance and Oversight",
+        "Internal Controls Design & Effectiveness",
+        "Operational Efficiency and Productivity",
+        "Risk Management Framework",
+        "Regulatory Compliance and Ethics",
+        "Information Security and Data Integrity"
+      ]
+    },
+    "cta": {
+      "title": "Your Success. Our Priority.",
+      "description": "We go beyond checking boxes. Our internal audit approach delivers insights that empower your business to grow with confidence.",
+      "button": "Book a Consultation"
+    }
+  },
+
+  "taxConsultingPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Our Services",
+      "current": "Tax Consulting"
+    },
+    "hero": {
+      "title": "Tax Consulting",
+      "subtitle": "Strategic tax solutions. Local insight. Global perspective.",
+      "description": "We help businesses navigate complex tax landscapes with confidence — optimizing tax positions, ensuring compliance, and creating sustainable value.",
+      "ctaPrimary": "Book a Consultation",
+      "ctaSecondary": "Explore Insights",
+      "imageAlt": "Global Tax Consulting"
+    },
+    "servicesCards": {
+      "taxPlanning": {
+        "title": "Tax Planning",
+        "desc": "Proactive planning to optimize tax positions and enhance business efficiency."
+      },
+      "internationalTax": {
+        "title": "International Tax",
+        "desc": "Cross-border expertise to structure transactions and ensure global compliance."
+      },
+      "taxCompliance": {
+        "title": "Tax Compliance",
+        "desc": "Accurate filings, minimized risk, and full alignment with local regulations."
+      },
+      "advisory": {
+        "title": "Advisory & Structuring",
+        "desc": "Tailored advisory for investments, restructurings, and new ventures."
+      }
+    },
+    "taxPlanningSection": {
+      "label": "Tax Planning",
+      "title": "Plan ahead. Pay smart. Grow confidently.",
+      "imageAlt": "Strategic Tax Planning",
+      "points": [
+        "Assess opportunities & risks",
+        "Optimize tax structures",
+        "Improve cash flow",
+        "Support long-term growth"
+      ]
+    },
+    "internationalTaxSection": {
+      "label": "International Tax",
+      "title": "Navigate beyond borders with ease.",
+      "description": "From cross-border transactions to permanent establishment and treaty applications, we help you manage international tax matters efficiently and compliantly.",
+      "imageAlt": "International Tax Map",
+      "points": [
+        "Transfer Pricing Advisory",
+        "Double Taxation Relief",
+        "Withholding Tax Optimization",
+        "Inbound & Outbound Structuring"
+      ]
+    },
+    "insights": {
+      "title": "Insights & Resources",
+      "readMore": "Read more",
+      "items": {
+        "trends": {
+          "tag": "Article",
+          "title": "2025 Tax Trends Businesses Should Watch"
+        },
+        "transferPricing": {
+          "tag": "Guide",
+          "title": "Understanding Transfer Pricing in the Region"
+        },
+        "checklist": {
+          "tag": "Checklist",
+          "title": "Cross-Border Tax Compliance Checklist"
+        }
+      }
+    },
+    "approach": {
+      "title": "Our Approach",
+      "steps": {
+        "understand": {
+          "number": "01",
+          "title": "Understand",
+          "desc": "We dive deep into your business and objectives."
+        },
+        "analyze": {
+          "number": "02",
+          "title": "Analyze",
+          "desc": "We assess tax impacts and opportunities."
+        },
+        "design": {
+          "number": "03",
+          "title": "Design",
+          "desc": "We craft tailored tax strategies for you."
+        },
+        "implement": {
+          "number": "04",
+          "title": "Implement",
+          "desc": "We support execution with precision."
+        },
+        "review": {
+          "number": "05",
+          "title": "Review & Optimize",
+          "desc": "We continuously monitor and refine."
+        }
+      }
+    },
+    "cta": {
+      "title": "Need guidance on your tax matters?",
+      "description": "Let's build a tax strategy that supports your goals today.",
+      "button": "Book a Consultation"
+    }
+  },
+
+  "riskManagementPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Our Services",
+      "current": "Risk Management"
+    },
+    "hero": {
+      "title": "Risk Management",
+      "tagline": "Identify. Assess. Mitigate. Thrive with Confidence.",
+      "description": "We help organizations anticipate uncertainties, manage risks proactively, and build resilient operations for sustainable success.",
+      "cta": "Book a Consultation",
+      "imageAlt": "Risk Management Cityscape"
+    },
+    "approach": {
+      "title": "Our Approach to Risk Management",
+      "steps": {
+        "identify": {
+          "title": "Identify",
+          "desc": "We help you identify potential risks across your operations."
+        },
+        "assess": {
+          "title": "Assess",
+          "desc": "We assess the likelihood and impact to prioritize critical risks."
+        },
+        "mitigate": {
+          "title": "Mitigate",
+          "desc": "We develop strategies to mitigate risks and strengthen controls."
+        },
+        "monitor": {
+          "title": "Monitor",
+          "desc": "We continuously monitor risks and control effectiveness."
+        },
+        "report": {
+          "title": "Report",
+          "desc": "We provide clear reporting and actionable insights for better decisions."
+        }
+      }
+    },
+    "riskAreas": {
+      "title": "Key Risk Areas We Cover",
+      "items": {
+        "strategic": {
+          "title": "Strategic Risk",
+          "desc": "Aligning strategy with market dynamics and business goals."
+        },
+        "operational": {
+          "title": "Operational Risk",
+          "desc": "Improving processes and minimizing operational disruptions."
+        },
+        "financial": {
+          "title": "Financial Risk",
+          "desc": "Managing financial uncertainties and strengthening stability."
+        },
+        "compliance": {
+          "title": "Compliance Risk",
+          "desc": "Ensuring adherence to laws, regulations, and standards."
+        },
+        "technology": {
+          "title": "Technology Risk",
+          "desc": "Safeguarding systems, data, and digital infrastructure."
+        },
+        "reputational": {
+          "title": "Reputational Risk",
+          "desc": "Protecting brand value and stakeholder trust."
+        }
+      }
+    },
+    "why": {
+      "title": "Why Effective Risk Management Matters",
+      "description": "Effective risk management empowers your organization to make informed decisions, protect value, seize opportunities, and achieve long-term growth.",
+      "items": {
+        "protect": {
+          "title": "Protect Value",
+          "desc": "Minimize potential losses and safeguard your assets."
+        },
+        "improve": {
+          "title": "Improve Decisions",
+          "desc": "Make confident, data-driven decisions with better insights."
+        },
+        "enhance": {
+          "title": "Enhance Performance",
+          "desc": "Strengthen operations and drive sustainable performance."
+        },
+        "drive": {
+          "title": "Drive Growth",
+          "desc": "Identify opportunities and stay ahead of competition."
+        }
+      }
+    },
+    "cta": {
+      "title": "Turn Uncertainty Into Opportunity.",
+      "description": "Partner with Benchmark to build resilience, manage risks proactively, and achieve your strategic objectives.",
+      "button": "Book a Consultation"
+    }
+  },
+
+  "transferPricingPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Our Services",
+      "current": "Transfer Pricing"
+    },
+    "hero": {
+      "titleWhite": "Transfer",
+      "titleGold": "Pricing",
+      "subtitle": "Values That Align. Outcomes That Comply.",
+      "description": "We help multinational businesses establish arm's length pricing for intercompany transactions—minimizing tax risks and creating sustainable value.",
+      "values": {
+        "reduceRisk": "Reduce Tax Risks",
+        "compliance": "Ensure Compliance Worldwide",
+        "strategy": "Support Business Strategy"
+      },
+      "visualAlt": "Global growth chart with world globe",
+      "highlights": {
+        "title": "Strong Rules.<br/>Stronger Results.",
+        "items": [
+          "Robust Documentation",
+          "Global Compliance",
+          "Local Expertise",
+          "Data-Driven Insights",
+          "Audit-Ready Approach"
+        ]
+      }
+    },
+    "matters": {
+      "title": "Why Transfer Pricing Matters?",
+      "description": "Transfer pricing ensures that transactions between related parties are priced fairly and in line with the arm's length principle.",
+      "cards": {
+        "strategy": "Aligns with Business Strategy",
+        "regulatory": "Meets Regulatory Requirements",
+        "disputes": "Mitigates Tax Disputes",
+        "global": "Optimizes Global Tax Position"
+      },
+      "diagramAlt": "Fair Value, Compliance, Value Creation diagram: Protects Reputation and Value, Enhances Financial Accuracy, Supports Sustainable Growth, Builds Stakeholder Confidence, Drives Operational Efficiency, Improves Decision Making"
+    },
+    "relationship": {
+      "title": "The Relationship Between Transfer Pricing & Tax",
+      "description": "Transfer pricing directly impacts your tax outcomes. Proper pricing reduces the risk of adjustments, penalties, and double taxation—while optimizing your global tax position.",
+      "steps": {
+        "pricing": "Transfer Pricing",
+        "compliance": "Tax Compliance & Efficiency",
+        "growth": "Value & Growth"
+      }
+    },
+    "approach": {
+      "title": "Our Approach",
+      "steps": {
+        "understand": {
+          "title": "Understand",
+          "desc": "We understand your business, industry, and intercompany transactions."
+        },
+        "analyze": {
+          "title": "Analyze",
+          "desc": "We perform economic analysis and benchmarking using reliable data and methods."
+        },
+        "determine": {
+          "title": "Determine",
+          "desc": "We determine arm's length pricing and prepare robust documentation."
+        },
+        "defend": {
+          "title": "Defend",
+          "desc": "We support you during audits and ensure ongoing compliance."
+        }
+      }
+    },
+    "strength": {
+      "title": "Benchmark's Strength",
+      "cards": {
+        "expertise": {
+          "title": "Global Expertise, Local Insight",
+          "desc": "Deep understanding of local regulations and global standards."
+        },
+        "methodologies": {
+          "title": "Strong Methodologies & Data",
+          "desc": "Access to advanced databases and proven methodologies."
+        },
+        "documentation": {
+          "title": "Audit-Ready Documentation",
+          "desc": "Clear, consistent, and comprehensive documentation."
+        },
+        "support": {
+          "title": "End-to-End Support",
+          "desc": "From planning to defense, we're with you every step of the way."
+        }
+      }
+    },
+    "banner": {
+      "line1": "Strong rules.",
+      "line2": "Trusted relationships.",
+      "line3": "Sustainable success.",
+      "tagline": "We turn complexity into clarity, risk into opportunity, and compliance into competitive advantage."
+    },
+    "whyChoose": {
+      "title": "Why Choose Benchmark for Transfer Pricing?",
+      "cards": {
+        "experience": {
+          "title": "International Experience",
+          "desc": "Serving clients across multiple industries and jurisdictions."
+        },
+        "tailored": {
+          "title": "Tailored Solutions",
+          "desc": "Customized transfer pricing solutions aligned with your business model."
+        },
+        "trackRecord": {
+          "title": "Proven Track Record",
+          "desc": "Successful outcomes in complex audits and controversy cases."
+        },
+        "excellence": {
+          "title": "Commitment to Excellence",
+          "desc": "We go beyond compliance to deliver lasting value and peace of mind."
+        }
+      }
+    },
+    "coverage": {
+      "title": "Our Global Coverage",
+      "mapAlt": "World map showing Benchmark global coverage",
+      "regions": [
+        "North America",
+        "Europe",
+        "Middle East",
+        "Asia Pacific",
+        "Latin America"
+      ]
+    },
+    "cta": {
+      "title": "Precision in Pricing. Confidence in Compliance.",
+      "description": "Let Benchmark help you navigate transfer pricing complexities with clarity, compliance, and confidence.",
+      "button": "Book a Consultation"
+    }
+  },
 
   "featuresOne": {
     "title": "New Standard 18",
@@ -206,7 +959,6 @@
   "successMessage": "Your message has been sent successfully, we'll get back to you soon",
   "errorMessage": "An error occurred while sending, please try again",
 
-  
   "aboutPage": {
     "hero": {
       "titleLine1": "We Build Trust",
@@ -215,10 +967,22 @@
       "imagePlaceholder": "Office / hero image placeholder"
     },
     "features": {
-      "confidential": { "title": "Complete Confidentiality", "desc": "We guarantee the protection and confidentiality of our clients' data at all times." },
-      "excellence": { "title": "Commitment to Excellence", "desc": "We strive for continuous improvement and the highest quality in everything we deliver." },
-      "clientFirst": { "title": "Clients First", "desc": "We place our clients' goals at the heart of every decision and strategy." },
-      "transparency": { "title": "Transparency & Governance", "desc": "We adhere to the highest standards of transparency and governance in all our dealings." }
+      "confidential": {
+        "title": "Complete Confidentiality",
+        "desc": "We guarantee the protection and confidentiality of our clients' data at all times."
+      },
+      "excellence": {
+        "title": "Commitment to Excellence",
+        "desc": "We strive for continuous improvement and the highest quality in everything we deliver."
+      },
+      "clientFirst": {
+        "title": "Clients First",
+        "desc": "We place our clients' goals at the heart of every decision and strategy."
+      },
+      "transparency": {
+        "title": "Transparency & Governance",
+        "desc": "We adhere to the highest standards of transparency and governance in all our dealings."
+      }
     },
     "about": {
       "label": "About Us",
@@ -227,10 +991,22 @@
       "imagePlaceholder": "Pen / vision image placeholder",
       "quote": "Your trusted partner on the journey of growth and success.",
       "highlights": {
-        "quality": { "title": "Certified Quality", "desc": "We adhere to the best local and international standards." },
-        "team": { "title": "Specialized Team", "desc": "A diverse, comprehensive mix of young talent and seasoned experts." },
-        "global": { "title": "Global Reach", "desc": "International coverage spanning the region and beyond." },
-        "solutions": { "title": "Effective Solutions", "desc": "We deliver practical solutions that meet your needs." }
+        "quality": {
+          "title": "Certified Quality",
+          "desc": "We adhere to the best local and international standards."
+        },
+        "team": {
+          "title": "Specialized Team",
+          "desc": "A diverse, comprehensive mix of young talent and seasoned experts."
+        },
+        "global": {
+          "title": "Global Reach",
+          "desc": "International coverage spanning the region and beyond."
+        },
+        "solutions": {
+          "title": "Effective Solutions",
+          "desc": "We deliver practical solutions that meet your needs."
+        }
       }
     },
     "global": {
@@ -239,11 +1015,26 @@
       "text": "Benchmark is proud to bring together top-tier talent from Jordan and across the globe. Our team combines deep local expertise with a global perspective, working hand in hand with clients to deliver innovative solutions that drive the best results in every field.",
       "imagePlaceholder": "World map image placeholder",
       "cards": {
-        "methodology": { "title": "Integrated Work Methodology", "desc": "Covering best practices in accounting, auditing, and advisory." },
-        "technology": { "title": "Advanced Tools & Technology", "desc": "We use the latest tools and technologies to improve performance and results." },
-        "market": { "title": "Deep Market Understanding", "desc": "We map out your world precisely to support the best decisions." },
-        "responsive": { "title": "Fast & Flexible Response", "desc": "We adapt quickly and flexibly to meet your requirements." },
-        "partnership": { "title": "Long-Term Partnerships", "desc": "We build sustainable relationships grounded in trust, understanding, and success." }
+        "methodology": {
+          "title": "Integrated Work Methodology",
+          "desc": "Covering best practices in accounting, auditing, and advisory."
+        },
+        "technology": {
+          "title": "Advanced Tools & Technology",
+          "desc": "We use the latest tools and technologies to improve performance and results."
+        },
+        "market": {
+          "title": "Deep Market Understanding",
+          "desc": "We map out your world precisely to support the best decisions."
+        },
+        "responsive": {
+          "title": "Fast & Flexible Response",
+          "desc": "We adapt quickly and flexibly to meet your requirements."
+        },
+        "partnership": {
+          "title": "Long-Term Partnerships",
+          "desc": "We build sustainable relationships grounded in trust, understanding, and success."
+        }
       }
     },
     "accreditations": {
@@ -251,5 +1042,4 @@
       "logos": ["IFRS", "IAASB", "OECD", "ISO"]
     }
   }
-
 }

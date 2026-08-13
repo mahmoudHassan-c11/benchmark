@@ -59,7 +59,7 @@ export default function ContactPage() {
   return (
     <div className="contactUs-page">
       {/* Hero Section */}
-      <section className="hero ">
+      <section className="hero">
         <div className="video w-full overflow-hidden">
           <video
             src="/images/branch.mp4"
@@ -82,7 +82,7 @@ export default function ContactPage() {
             }}
           />
         </div>
-        <div className=" absolute hero-content relative flex flex-col lg:flex-row gap-10">
+        <div className="px-8 absolute hero-content relative flex flex-col lg:flex-row gap-10">
           <div className="hero-left">
             <div className="hero-label">{t("hero.label")}</div>
             <h1

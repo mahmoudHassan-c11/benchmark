@@ -43,7 +43,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${fontClass} h-full antialiased`}>
-      <body className={`min-h-full ${fontClass} container mx-auto px-4 sm:px-6 lg:px-8 `}>
+      <body
+        className={`min-h-full ${fontClass}  `}
+      >
         <NextIntlClientProvider messages={messages}>
           <NavLinks />
           {children}

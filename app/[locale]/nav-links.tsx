@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -21,14 +22,15 @@ export function NavLinks() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative flex gap-4 py-6 lg:py-8 items-center justify-between z-50">
+    <div className="container relative flex items-center justify-between gap-4 py-6 lg:py-8 z-50">
+      {/* Logo */}
       <div className="logo shrink-0">
         <Logo />
       </div>
 
       {/* Desktop Links */}
-      <div className="links hidden lg:block">
-        <ul className="flex gap-6">
+      <div className="links hidden xl:block">
+        <ul className="flex gap-4">
           {navItems.map((item) => (
             <li key={item.key}>
               <Link
@@ -43,7 +45,7 @@ export function NavLinks() {
       </div>
 
       {/* Desktop Right Side */}
-      <div className="hidden lg:flex items-center gap-4">
+      <div className="hidden xl:flex items-center gap-4">
         <div className="flex items-center gap-1 rounded-[5px] bg-[#101B1D] px-4 py-3 border border-white/10">
           <svg
             className="w-4 h-4 text-white/70"
@@ -58,6 +60,7 @@ export function NavLinks() {
               d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM3.6 9h16.8M3.6 15h16.8M12 3a15 15 0 010 18M12 3a15 15 0 000 18"
             />
           </svg>
+
           <Link
             href={pathname}
             locale="en"
@@ -65,7 +68,9 @@ export function NavLinks() {
           >
             English
           </Link>
+
           <span className="text-white/30">|</span>
+
           <Link
             href={pathname}
             locale="ar"
@@ -74,6 +79,7 @@ export function NavLinks() {
             العربية
           </Link>
         </div>
+
         <Link
           className="btn group flex items-center gap-1.5 bg-[#BF925E] text-white px-6 py-3 rounded-[5px] hover:bg-[#A87B4A] transition-colors"
           href="/our-services"
@@ -83,18 +89,19 @@ export function NavLinks() {
         </Link>
       </div>
 
-      {/* Mobile Hamburger Button */}
+      {/* Mobile / Tablet Hamburger */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="lg:hidden text-white p-2 z-50 cursor-pointer"
+        className="xl:hidden text-white p-2 z-50 cursor-pointer"
         aria-label={isOpen ? "Close menu" : "Open menu"}
+        aria-expanded={isOpen}
       >
-        {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7 " />}
+        {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
       </button>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile / Tablet Menu */}
       <div
-        className={`fixed inset-0 bg-[#101B1D] flex flex-col items-center justify-center gap-8 transition-all duration-300 lg:hidden ${
+        className={`fixed inset-0 bg-[#101B1D] flex flex-col items-center justify-center gap-8 transition-all duration-300 xl:hidden ${
           isOpen
             ? "opacity-100 visible translate-y-0"
             : "opacity-0 invisible -translate-y-4"
@@ -118,14 +125,18 @@ export function NavLinks() {
           <Link
             href={pathname}
             locale="en"
+            onClick={() => setIsOpen(false)}
             className="text-white text-sm hover:text-[#BF925E] transition-colors"
           >
             English
           </Link>
+
           <span className="text-white/30">|</span>
+
           <Link
             href={pathname}
             locale="ar"
+            onClick={() => setIsOpen(false)}
             className="text-white text-sm hover:text-[#BF925E] transition-colors"
           >
             العربية
