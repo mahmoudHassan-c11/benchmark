@@ -2304,7 +2304,7 @@ div h1.title-main {
   bottom: -10px;
   left: 0;
 }
-.risk-management-page .hero .hero-content p:nth-last-of-type {
+.risk-management-page .hero .hero-content p:last-of-type {
   color: var(--white);
   font-size: 16px;
 }

@@ -82,7 +82,7 @@ export default function RiskManagementPage() {
           </Link>
         </div>
         {/* Video Section */}
-        <div className="relative flex-[60%] lg:w-1/2 h-full sm:h-[320px] md:h-[400px] md:block hidden overflow-hidden">
+        <div className="relative flex-[60%] lg:w-1/2 h-full sm:h-80 md:h-100 md:block hidden overflow-hidden">
           <video
             src="/images/video-3.mp4"
             autoPlay
