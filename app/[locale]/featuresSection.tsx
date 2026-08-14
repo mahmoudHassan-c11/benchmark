@@ -1,17 +1,19 @@
 "use client";
+
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import "@/app/globals.css";
 import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 
 export default function FeaturesSection() {
   const t = useTranslations("servicesPage");
   const t1 = useTranslations("featuresOne");
   const t2 = useTranslations("featuresTwo");
 
-  const container = {
+  const container: Variants = {
     hidden: {},
+
     show: {
       transition: {
         staggerChildren: 0.15,
@@ -19,11 +21,12 @@ export default function FeaturesSection() {
     },
   };
 
-  const card = {
+  const card: Variants = {
     hidden: {
       opacity: 0,
       y: 80,
     },
+
     show: {
       opacity: 1,
       y: 0,
@@ -60,14 +63,17 @@ export default function FeaturesSection() {
       variants={container}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{
+        once: true,
+        amount: 0.2,
+      }}
       className="features-section"
     >
       <div className="features-container">
         {features.map((feature) => (
           <motion.article
-            variants={card}
             key={feature.id}
+            variants={card}
             className={`feature-card feature-card-${feature.variant}`}
           >
             <div className="feature-content">
@@ -82,7 +88,12 @@ export default function FeaturesSection() {
               <p className="feature-description">{feature.description2}</p>
 
               <a href={feature.link} className="feature-link">
-                <ArrowLeft className="feature-arrow" size={18} />ل
+                <ArrowLeft
+                  className="feature-arrow"
+                  size={18}
+                  aria-hidden="true"
+                />
+
                 <span>{t("learnMore")}</span>
               </a>
             </div>
