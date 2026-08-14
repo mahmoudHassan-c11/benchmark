@@ -56,21 +56,23 @@ export default function RiskManagementPage() {
   return (
     <div className="risk-management-page">
       {/* Breadcrumb */}
-      <nav className="breadcrumb">
+      <nav className="breadcrumb pl-6!">
         <ul className="flex items-center">
           <li>
             <Link href="/">{t("breadcrumb.home")}</Link>
           </li>
           <li>
-            <Link href="/our-services/services">{t("breadcrumb.services")}</Link>
+            <Link href="/our-services/services">
+              {t("breadcrumb.services")}
+            </Link>
           </li>
           <li aria-current="page">{t("breadcrumb.current")}</li>
         </ul>
       </nav>
 
       {/* Hero Section */}
-      <section className="hero flex justify-between">
-        <div className="hero-content">
+      <section className="hero flex justify-between ">
+        <div className="hero-content pl-6">
           <h1>{t("hero.title")}</h1>
           <p className="tagline">{t("hero.tagline")}</p>
           <p className="description">{t("hero.description")}</p>

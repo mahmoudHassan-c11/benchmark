@@ -56,8 +56,175 @@ body {
   color: var(--mainText);
 }
 
+.home-hero-stats {
+  width: 160px;
+
+  padding: 10px 0;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0, 31, 26, 0.98) 0%,
+      rgba(0, 31, 26, 0.88) 30%,
+      rgba(0, 31, 26, 0.45) 65%,
+      rgba(0, 31, 26, 0.72) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0, 20, 17, 0.35) 0%,
+      rgba(0, 20, 17, 0.15) 50%,
+      rgba(0, 20, 17, 0.85) 100%
+    );
+}
+
+.hero-stat {
+  position: relative;
+
+  padding-left: 18px;
+
+  border-left: 1px solid rgba(220, 168, 71, 0.55);
+}
+
+.hero-stat strong {
+  display: block;
+
+  color: #dca847;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 34px;
+  line-height: 1;
+}
+
+.hero-stat span {
+  display: block;
+
+  margin-top: 7px;
+
+  color: rgba(255, 255, 255, 0.8);
+
+  font-size: 12px;
+}
+
+/* =========================================
+   STANDARDS SECTION
+========================================= */
+
+.standards-section {
+  position: relative;
+  padding: 28px 0;
+
+  background: #001f1a3a;
+
+  border-top: 1px solid rgba(220, 168, 71, 0.2);
+  border-bottom: 1px solid rgba(220, 168, 71, 0.2);
+}
+
+.standards-title {
+  margin: 0 0 22px;
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.65);
+
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+
+.standards-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  align-items: center;
+}
+
+.standard-item {
+  min-height: 55px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  border-right: 1px solid rgba(220, 168, 71, 0.25);
+
+  text-align: center;
+}
+
+.standard-item:last-child {
+  border-right: 0;
+}
+
+.standard-item strong {
+  color: #dca847;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 20px;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+}
+
+.standard-item span {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 9px;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+  .standards-section {
+    padding: 22px 0;
+  }
+
+  .standards-title {
+    margin-bottom: 16px;
+
+    font-size: 10px;
+  }
+
+  .standards-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .standard-item {
+    min-height: 65px;
+
+    padding: 8px;
+
+    border-bottom: 1px solid rgba(220, 168, 71, 0.18);
+  }
+
+  .standard-item:nth-child(2n) {
+    border-right: 0;
+  }
+
+  .standard-item:nth-last-child(-n + 2) {
+    border-bottom: 0;
+  }
+
+  .standard-item strong {
+    font-size: 17px;
+  }
+
+  .standard-item span {
+    font-size: 8px;
+  }
+}
+
 div h1.title-main {
-  color: var(--colorText);
+  color: var(--white);
 }
 
 .services-section-container {
@@ -1481,10 +1648,8 @@ div h1.title-main {
    ============================================ */
 
 .services-page .hero {
-  padding: 70px 0 50px;
   position: relative;
   overflow: hidden;
-  min-height: 70vh;
 }
 
 .services-page .hero-decor {
@@ -2565,7 +2730,7 @@ div h1.title-main {
 }
 .risk-management-page .approach .approach-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   justify-content: space-between;
   row-gap: 40px;
 }
@@ -2869,11 +3034,10 @@ div h1.title-main {
   }
 }
 
-/*--------------------  STart tax-consulting-page -*/
+/*--------------------  Sفart tax-consulting-page -*/
 .tax-consulting-page .services-cards {
   background-color: var(--white);
   padding: 20px 30px;
-  border-radius: 10px;
   box-shadow: 1px 1px 11px 1px #a39797;
   margin: 0 0 100px 0;
 }
@@ -2902,20 +3066,12 @@ div h1.title-main {
 
 .tax-consulting-page .split-section {
   background-color: var(--white);
-  border-radius: 10px;
   border: 1px solid var(--backgroundLight);
 }
 .tax-consulting-page .split-section .split-grid {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-}
-
-.tax-consulting-page
-  .split-section
-  .split-grid:nth-last-of-type(1)
-  .split-visual
-  .img {
 }
 
 .tax-consulting-page .split-section .split-grid .split-content {
@@ -3291,7 +3447,7 @@ div h1.title-main {
 .tax-consulting-page .approach-grid {
   position: relative;
   z-index: 1;
-
+  justify-content: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;

@@ -30,9 +30,8 @@ export default function ServicesPage() {
 
   return (
     <div className="services-page container">
-      
       {/* Hero Section */}
-      <section className="hero">
+      <section className="hero flex flex-col lg:flex-row">
         <div className="hero-decor" aria-hidden="true">
           <svg
             className="arc"
@@ -63,7 +62,29 @@ export default function ServicesPage() {
             </h1>
             <p className="hero-subtitle">{t("hero.subtitle")}</p>
           </div>
+        </div>
 
+        <div className="relative flex-[60%] lg:w-1/2 h-full sm:h-80 md:h-100 hidden md:block overflow-hidden">
+          <video
+            src="/images/video-3.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+            style={{
+              maskImage: `
+          linear-gradient(to right, transparent, black 10%, black 90%, transparent),
+          linear-gradient(to bottom, transparent, black 10%, black 90%, transparent)
+        `,
+              maskComposite: "intersect",
+              WebkitMaskImage: `
+          linear-gradient(to right, transparent, black 10%, black 90%, transparent),
+          linear-gradient(to bottom, transparent, black 10%, black 90%, transparent)
+        `,
+              WebkitMaskComposite: "source-in",
+            }}
+          />
         </div>
       </section>
 

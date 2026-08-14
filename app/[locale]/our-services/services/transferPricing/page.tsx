@@ -86,7 +86,7 @@ export default function TransferPricingPage() {
         </div>
       </nav>
       {/* Hero */}
-      <section className="hero min-h-[200vh]">
+      <section className="hero min-h-[150vh]">
         <div className="video w-full overflow-hidden h-[100vh] lg:h-full">
           <video
             src="/images/globe.mp4"

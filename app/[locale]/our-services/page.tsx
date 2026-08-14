@@ -2,14 +2,15 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ArrowLeft } from "lucide-react";
 import Statistics from "../statstics";
+import ServicesPage from "./services/page";
 
 export default function Page() {
   const t = useTranslations("our-services");
   const tButtons = useTranslations("buttons");
 
   return (
-    <div className="container our-services">
-      <div className="flex flex-col lg:flex-row min-h-screen justify-between relative">
+    <div className="container our-services pb-14">
+      {/* <div className="flex flex-col lg:flex-row min-h-screen justify-between relative">
         <div className="text w-full lg:w-1/2 px-6 py-10 lg:py-12 flex items-center justify-center flex-col gap-4">
           <h1 className="title-main text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center w-full sm:w-[85%] lg:w-[70%] leading-tight">
             {t("title")}
@@ -61,7 +62,9 @@ export default function Page() {
             }}
           />
         </div>
-      </div>
+      </div> */}
+
+      <ServicesPage />
 
       <Statistics />
     </div>

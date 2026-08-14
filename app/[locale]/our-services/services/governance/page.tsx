@@ -81,10 +81,10 @@ export default function GovernancePage() {
         </div>
 
         <div className="hero-inner container">
-          <p className="breadcrumb">
+          <p className="breadcrumb gap-4">
             <Link href="/">{t("breadcrumb.home")}</Link>
             {" › "}
-            <Link href="/our-services">{t("breadcrumb.services")}</Link>
+            <Link href="/our-services/services">{t("breadcrumb.services")}</Link>
             {" › "}
             <span>{t("breadcrumb.current")}</span>
           </p>

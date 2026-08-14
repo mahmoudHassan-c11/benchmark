@@ -4,7 +4,6 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { ArrowLeft, Menu, X } from "lucide-react";
-import { Logo } from "./ui/logo";
 import Image from "next/image";
 
 const navItems = [
@@ -12,7 +11,6 @@ const navItems = [
   { href: "/about-us", key: "about" },
   { href: "/our-services", key: "services" },
   { href: "/contact-us", key: "contact" },
-  { href: "/materials", key: "materials" },
   { href: "/knowledge", key: "knowledge" },
 ];
 
@@ -23,7 +21,7 @@ export function NavLinks() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="container relative flex items-center justify-between gap-4 py-6 lg:py-8 z-50">
+    <div className="px-8 relative flex items-center justify-between gap-4 py-6 lg:py-8 z-50">
       {/* Logo */}
       <div className="logo shrink-0">
         {/* <Logo /> */}

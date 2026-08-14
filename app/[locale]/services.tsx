@@ -42,13 +42,13 @@ function ServiceCard({
 }
 
 const services = [
-  { key: "bookkeeping", icon: <Calculator size={34} strokeWidth={1.5} /> },
-  { key: "taxConsulting", icon: <FileText size={34} strokeWidth={1.5} /> },
-  { key: "internalAudit", icon: <Search size={34} strokeWidth={1.5} /> },
-  { key: "forensic", icon: <Fingerprint size={34} strokeWidth={1.5} /> },
-  { key: "risk-management", icon: <ShieldAlert size={34} strokeWidth={1.5} /> },
-  { key: "governance", icon: <Landmark size={34} strokeWidth={1.5} /> },
-  { key: "transferPricing", icon: <Globe size={34} strokeWidth={1.5} /> },
+  { key: "bookkeeping", icon: <Calculator size={44} strokeWidth={1.5} /> },
+  { key: "taxConsulting", icon: <FileText size={44} strokeWidth={1.5} /> },
+  { key: "internalAudit", icon: <Search size={44} strokeWidth={1.5} /> },
+  { key: "forensic", icon: <Fingerprint size={44} strokeWidth={1.5} /> },
+  { key: "risk-management", icon: <ShieldAlert size={44} strokeWidth={1.5} /> },
+  { key: "governance", icon: <Landmark size={44} strokeWidth={1.5} /> },
+  { key: "transferPricing", icon: <Globe size={44} strokeWidth={1.5} /> },
 ] as const;
 
 export default function Services() {

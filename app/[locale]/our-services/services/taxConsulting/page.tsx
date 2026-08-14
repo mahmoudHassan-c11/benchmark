@@ -41,25 +41,9 @@ export default function TaxConsultingPage() {
   return (
     <div className="tax-consulting-page">
       {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" className="breadcrumb">
-        <div className="container">
-          <ul>
-            <li>
-              <Link href="/">{t("breadcrumb.home")}</Link>
-            </li>
-            <li>
-              <Link href="/our-services/services">
-                {t("breadcrumb.services")}
-              </Link>
-            </li>
-            <li aria-current="page">{t("breadcrumb.current")}</li>
-          </ul>
-        </div>
-      </nav>
 
       {/* Hero */}
-      <section className="hero">
-        <div className="video w-full overflow-hidden h-screen lg:h-full">
+      {/* <div className="video w-full overflow-hidden h-screen lg:h-full">
           <video
             src="/images/globe.mp4"
             autoPlay
@@ -80,30 +64,75 @@ export default function TaxConsultingPage() {
               WebkitMaskComposite: "source-in",
             }}
           />
-        </div>
-        <div className="hero-inner absolute top-24 sm:top-32 lg:top-50 container flex items-center justify-center flex-col lg:flex-row">
-          <div className="hero-content w-full">
-            <h1 className="text-white">{t("hero.title")}</h1>
+        </div> */}
+      <section className="hero relative mb-32 min-h-[720px] overflow-hidden bg-[#00251f]">
+        {/* Hero Image */}
 
-            <p className="subtitle">{t("hero.subtitle")}</p>
+        <nav aria-label="Breadcrumb" className="breadcrumb">
+          <div className="container">
+            <ul>
+              <li>
+                <Link href="/">{t("breadcrumb.home")}</Link>
+              </li>
+              <li>
+                <Link href="/our-services/services">
+                  {t("breadcrumb.services")}
+                </Link>
+              </li>
+              <li aria-current="page">{t("breadcrumb.current")}</li>
+            </ul>
+          </div>
+        </nav>
+        <div>
+          <div className="hero-inner container relative z-10 flex min-h-[720px] items-center">
+            <div className="hero-content w-full max-w-[620px]">
+              <span className="mb-5 block text-sm uppercase tracking-[2px] text-[#BF925E]">
+                Benchmark Tax & Accounting Advisory
+              </span>
 
-            <p className="description">{t("hero.description")}</p>
+              <h1 className="text-[clamp(42px,6vw,76px)] font-medium leading-[1.08] text-[#f0f0f0]">
+                {t("hero.title")}
+              </h1>
 
-            <div className="hero-actions flex items-center justify-between w-full lg:w-3/4 flex-col lg:flex-row">
-              <Link
-                href="/contact"
-                className="btn mt-8 group flex items-center gap-1.5 bg-[#BF925E] text-white px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base rounded-[5px] hover:bg-[#A87B4A] transition-colors"
-              >
-                {t("hero.ctaPrimary")}
-              </Link>
+              <p className="subtitle mt-5 text-[clamp(20px,2.5vw,30px)] leading-[1.4] text-[#BF925E]">
+                {t("hero.subtitle")}
+              </p>
 
-              <Link
-                href="/insights"
-                className="btn mt-8 group flex items-center gap-1.5 bg-[#BF925E] text-white px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base rounded-[5px] hover:bg-[#A87B4A] transition-colors"
-              >
-                {t("hero.ctaSecondary")}
-              </Link>
+              <p className="description mt-5 max-w-[570px] text-sm leading-[1.9] text-white/80 sm:text-base">
+                {t("hero.description")}
+              </p>
+
+              <div className="hero-actions mt-8 flex w-full flex-col gap-3 sm:flex-row">
+                <Link
+                  href="/contact"
+                  className="btn inline-flex min-h-[48px] items-center justify-center rounded-[5px] bg-[#BF925E] px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#A87B4A] sm:text-base"
+                >
+                  {t("hero.ctaPrimary")}
+                </Link>
+
+                <Link
+                  href="/insights"
+                  className="btn inline-flex min-h-[48px] items-center justify-center rounded-[5px] border border-[#BF925E]/70 bg-[#00251f]/50 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#BF925E]/10 sm:text-base"
+                >
+                  {t("hero.ctaSecondary")}
+                </Link>
+              </div>
             </div>
+          </div>
+          <div className="absolute inset-y-0 right-0 w-full lg:w-[58%]">
+            <Image
+              src="/images/train.png"
+              alt="Benchmark"
+              fill
+              priority
+              className="object-cover object-center"
+              sizes="(max-width: 1024px) 100vw, 58vw"
+            />
+
+            {/* Image Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#00251f] via-[#00251f]/60 to-transparent" />
+
+            <div className="absolute inset-0 bg-gradient-to-t from-[#00251f]/80 via-transparent to-[#00251f]/20" />
           </div>
         </div>
       </section>
@@ -227,7 +256,7 @@ export default function TaxConsultingPage() {
                   {t(`approach.steps.${step.key}.number`)}
                 </span>
                 {step.icon}
-                <h3>{t(`approach.steps.${step.key}.title`)}</h3>
+                <h3 className="pt-5">{t(`approach.steps.${step.key}.title`)}</h3>
                 <p>{t(`approach.steps.${step.key}.desc`)}</p>
               </div>
             ))}
