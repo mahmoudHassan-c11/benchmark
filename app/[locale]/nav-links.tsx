@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { ArrowLeft, Menu, X } from "lucide-react";
 import { Logo } from "./ui/logo";
+import Image from "next/image";
 
 const navItems = [
   { href: "/", key: "home" },
@@ -25,7 +26,15 @@ export function NavLinks() {
     <div className="container relative flex items-center justify-between gap-4 py-6 lg:py-8 z-50">
       {/* Logo */}
       <div className="logo shrink-0">
-        <Logo />
+        {/* <Logo /> */}
+        <Image
+          src="/images/logo.png"
+          alt="Benchmark"
+          width={180}
+          height={60}
+          priority
+          className="logo"
+        />
       </div>
 
       {/* Desktop Links */}
