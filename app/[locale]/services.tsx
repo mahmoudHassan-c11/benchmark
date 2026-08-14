@@ -7,93 +7,65 @@ import {
   Calculator,
   Receipt,
   ArrowLeft,
+  FileText,
+  Search,
+  Fingerprint,
+  ShieldAlert,
+  Globe,
 } from "lucide-react";
 import "@/app/globals.css";
 import { Link } from "@/i18n/navigation";
 
-export default function Services() {
-  const t = useTranslations("our-services");
+function ServiceCard({
+  icon,
 
-  const services = [
-    {
-      id: 1,
-      title: t("1"),
-      logo: ClipboardCheck,
-    },
-    {
-      id: 2,
-      title: t("2"),
-      logo: Landmark,
-    },
-    {
-      id: 3,
-      title: t("3"),
-      logo: Users,
-    },
-    {
-      id: 4,
-      title: t("4"),
-      logo: TrendingUp,
-    },
-    {
-      id: 5,
-      title: t("5"),
-      logo: Calculator,
-    },
-    {
-      id: 6,
-      title: t("6"),
-      logo: Receipt,
-    },
-  ];
+  title,
+  href,
+}: {
+  icon: React.ReactNode;
 
+  title: string;
+  href: string;
+}) {
   return (
-    <div className="services-container">
-      {services.map((service) => (
-        <div key={service.id} className="service">
-          <service.logo className="icon" />
-
-          <p>{service.title}</p>
-          <Link href="/about" className="text-center">
-            <ArrowLeft className="arrow transition-transform duration-300 group-hover:-translate-x-2" />
-          </Link>
-        </div>
-      ))}
-    </div>
+    <article className="service-card">
+      <div className="service-icon">{icon}</div>
+      <h3>{title}</h3>
+      <Link
+        href={`/our-services/services/${href}`}
+        className="service-link arrow"
+      >
+        →
+      </Link>
+    </article>
   );
 }
-// import {
-//   ClipboardCheck,
-//   Landmark,
-//   Users,
-//   TrendingUp,
-//   Calculator,
-//   Receipt,
-// } from "lucide-react";
 
-// const services = [
-//   { name: "خدمات المراجعة المالية", Icon: ClipboardCheck },
-//   { name: "التمويل والمشتقات", Icon: Landmark },
-//   { name: "الاستشارات الإدارية", Icon: Users },
-//   { name: "الاستشارات المالية", Icon: TrendingUp },
-//   { name: "المحاسبة", Icon: Calculator },
-//   { name: "الخدمات الضريبية", Icon: Receipt },
-// ];
+const services = [
+  { key: "bookkeeping", icon: <Calculator size={34} strokeWidth={1.5} /> },
+  { key: "taxConsulting", icon: <FileText size={34} strokeWidth={1.5} /> },
+  { key: "internalAudit", icon: <Search size={34} strokeWidth={1.5} /> },
+  { key: "forensic", icon: <Fingerprint size={34} strokeWidth={1.5} /> },
+  { key: "risk-management", icon: <ShieldAlert size={34} strokeWidth={1.5} /> },
+  { key: "governance", icon: <Landmark size={34} strokeWidth={1.5} /> },
+  { key: "transferPricing", icon: <Globe size={34} strokeWidth={1.5} /> },
+] as const;
 
-// export default function ServicesSection() {
-//   return (
-//     <div className="flex flex-wrap justify-center gap-6 p-6" dir="rtl">
-//       {services.map(({ name, Icon }) => (
-//         <div
-//           key={name}
-//           className="flex flex-col items-center gap-2 w-32 text-center"
-//         >
-//           <div className="bg-emerald-900/40 p-3 rounded-full">
-//             <Icon className="w-6 h-6 text-amber-400" />
-//           </div>
-//           <span className="text-sm text-white">{name}</span>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// }
+export default function Services() {
+  const tServices = useTranslations("servicesPage");
+
+  return (
+    <section className="services services-section-container">
+      <div className="services-grid">
+        {services.map((service) => (
+          <ServiceCard
+            key={service.key}
+            href={service.key}
+            icon={service.icon}
+            title={tServices(`services.${service.key}.title`)}
+          />
+        ))}
+      </div>
+    </section>
+  );
+}

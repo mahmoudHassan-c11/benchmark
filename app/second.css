@@ -1,0 +1,76 @@
+.features-container {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  padding: 30px 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.features-container .feature-card {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: var(--secondBackground);
+  max-height: 300px;
+  overflow: hidden;
+  padding: 10px 30px;
+  border: 1px solid var(--colorText);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.features-container .feature-card:hover {
+  box-shadow: 1px 2px 12px 2px var(--colorText);
+}
+.features-container .feature-card:hover .arrow {
+  animation: moving 0.9s infinite ease;
+}
+.features-container .feature-card .feature-content {
+  flex: 1;
+  width: 50%;
+}
+
+.features-container .feature-card h3 {
+  color: var(--colorTextLight);
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.features-container .feature-card p {
+  color: var(--white);
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.features-container .feature-card .feature-image {
+  /* flex-shrink: 0; */
+  width: 50%;
+  height: 250px;
+  max-width: 40%;
+  object-fit: cover;
+  display: block;
+}
+
+.features-container .feature-card .feature-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--colorText);
+}
+
+@media (max-width: 480px) {
+  .features-container .feature-card {
+    flex-direction: column;
+    text-align: center;
+    max-height: none;
+  }
+
+  .features-container .feature-card .feature-image {
+    max-width: 60%;
+  }
+}

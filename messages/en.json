@@ -837,16 +837,19 @@
     }
   },
 
+  
   "featuresOne": {
     "title": "New Standard 18",
-    "description1": "Standards for using reports we'll reveal about the application.",
-    "description2": "We help you understand the requirements of the new Standard 18 and its proper implementation in your business."
+    "description1": "New reporting standards and their application in your business.",
+    "description2": "We help you understand the requirements of the new Standard 18 and implement them correctly in your business."
   },
+
   "featuresTwo": {
     "title": "Financial Flexibility",
     "description1": "The foundation for sustainable growth",
-    "description2": "The foundation on which business sustainability grows. We help you build flexible financial management that keeps pace with changes and ensures continuity."
+    "description2": "The foundation on which business sustainability is built. We help you build flexible financial management that adapts to change and ensures business continuity."
   },
+
 
   "span": {
     "text": "We are committed to the highest international standards"

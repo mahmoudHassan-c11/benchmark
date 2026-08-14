@@ -1,13 +1,24 @@
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Calculator, FileText, Fingerprint, Globe, Landmark, Search, ShieldAlert } from "lucide-react";
 import Services from "./services";
 import FeaturesSection from "./featuresSection";
+
+const services = [
+  { key: "bookkeeping", icon: <Calculator size={34} strokeWidth={1.5} /> },
+  { key: "taxConsulting", icon: <FileText size={34} strokeWidth={1.5} /> },
+  { key: "internalAudit", icon: <Search size={34} strokeWidth={1.5} /> },
+  { key: "forensic", icon: <Fingerprint size={34} strokeWidth={1.5} /> },
+  { key: "risk-management", icon: <ShieldAlert size={34} strokeWidth={1.5} /> },
+  { key: "governance", icon: <Landmark size={34} strokeWidth={1.5} /> },
+  { key: "transferPricing", icon: <Globe size={34} strokeWidth={1.5} /> },
+] as const;
 
 export default function Home() {
   const t = useTranslations("mainPage");
   const tButtons = useTranslations("buttons");
   const spanText = useTranslations("span");
+  const tServices = useTranslations("servicesPage");
   return (
     <div className="container">
       <div className="flex flex-col-reverse lg:flex-row min-h-screen justify-between relative">
